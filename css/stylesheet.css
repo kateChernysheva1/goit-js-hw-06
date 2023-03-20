@@ -1,0 +1,34 @@
+.link {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-decoration: none;
+}
+
+.gallery {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
